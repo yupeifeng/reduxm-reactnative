@@ -1,4 +1,4 @@
-# [Reduxm](https://github.com/yupeifeng/reduxm)
+# [reduxm-reactnative](https://github.com/yupeifeng/reduxm-reactnative)
 *为了更好的使用Redux，进行二次封装（针对ReactNative）*
 
 ## 内容目录

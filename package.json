@@ -1,6 +1,6 @@
 {
   "name": "reduxm-reactnative",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "为了更好的使用Redux，进行二次封装（针对ReactNative）",
   "main": "lib/index.js",
   "scripts": {
@@ -21,9 +21,9 @@
   "author": "yupeifeng",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/yupeifeng/reduxm/issues"
+    "url": "https://github.com/yupeifeng/reduxm-reactnative/issues"
   },
-  "homepage": "https://github.com/yupeifeng/reduxm#readme",
+  "homepage": "https://github.com/yupeifeng/reduxm-reactnative#readme",
   "dependencies": {
     "deepcopy": "^0.6.3",
     "immutable": "^4.0.0-rc.9",
