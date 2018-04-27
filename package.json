@@ -1,6 +1,6 @@
 {
   "name": "reduxm-reactnative",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "为了更好的使用Redux，进行二次封装（针对ReactNative）",
   "main": "lib/index.js",
   "scripts": {
@@ -26,6 +26,7 @@
   "homepage": "https://github.com/yupeifeng/reduxm-reactnative#readme",
   "dependencies": {
     "deepcopy": "^0.6.3",
+    "lodash.isequal": "^4.5.0",
     "immutable": "^4.0.0-rc.9",
     "react": "^16.1.0",
     "react-redux": "^5.0.6",

@@ -1,6 +1,7 @@
 import { connect } from 'react-redux';
 import { bindActionCreators } from 'redux';
 import React from 'react';
+import isEqual from 'lodash.isequal';
 
 /**
  * connectStore修饰器,连接数据,事件和reactDom
@@ -16,6 +17,14 @@ const connectStore = (storeList = [], destroyStoreList = []) => target => {
 	class reactDom extends React.Component {
 		componentWillUnmount() {
 			this.props.sysRestState();
+		}
+
+		shouldComponentUpdate(nextProps, nextState) {
+			if (isEqual(this.props, nextProps) && isEqual(this.state, nextState)) {
+				return false;
+			} else {
+				return true;
+			}
 		}
 
 		render() {
