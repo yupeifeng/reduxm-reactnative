@@ -19,14 +19,6 @@ const connectStore = (storeList = [], destroyStoreList = []) => target => {
 			this.props.sysRestState();
 		}
 
-		shouldComponentUpdate(nextProps, nextState) {
-			if (isEqual(this.props, nextProps) && isEqual(this.state, nextState)) {
-				return false;
-			} else {
-				return true;
-			}
-		}
-
 		render() {
 			return React.createElement(target, Object.assign({}, this.props));
 		}
