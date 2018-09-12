@@ -120,3 +120,6 @@
 2. 为了方便使用，Store中提供getAllInitData方法，获取storeName下所有初始数据，减少想手动初始化数据时的重复性定义。
 3. (dispatch, _this)，action中第二个的系统级入参，提供_this,方便action内部函数互相调用。
 4. 为了简化省去回调，复用不同action文件中方法，提供actionGlobal注解解决
+
+## 示例
+见example文件夹下
