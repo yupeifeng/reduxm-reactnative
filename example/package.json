@@ -13,7 +13,7 @@
     "react": "16.4.1",
     "react-native": "0.56.1",
     "reduxm-reactnative": "^1.0.8",
-    "react-navigation": "^2.13.0"
+    "react-navigation": "^2.17.0"
   },
   "devDependencies": {
     "babel-jest": "23.6.0",
