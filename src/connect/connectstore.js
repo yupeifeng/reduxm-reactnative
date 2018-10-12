@@ -79,7 +79,10 @@ const connectStore = (storeList = [], destroyStoreList = []) => target => {
 		return mapDispatchToProps;
 	};
 
-	return connect(mapStateToProps, mapDispatchToProps)(reactDom);
+	return connect(
+		mapStateToProps,
+		mapDispatchToProps
+	)(reactDom);
 };
 
 export default connectStore;
